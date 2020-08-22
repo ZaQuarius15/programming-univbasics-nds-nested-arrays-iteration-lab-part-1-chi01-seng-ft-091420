@@ -7,6 +7,7 @@ def find_even_values(src)
         continue
       else
         puts src[count][inner_count]
+      end
       inner_count += 1
     end
     count += 1  
